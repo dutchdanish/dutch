@@ -1,4 +1,5 @@
 
+
 class ArticlesController < ApplicationController
   def new
 @articles = Article.new
@@ -13,7 +14,7 @@ class ArticlesController < ApplicationController
   else 
    render 'new'
   end
-
+end
  
  private
   def article_params
